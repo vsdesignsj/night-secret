@@ -12,7 +12,7 @@ nav .container-fluid{
 
 #navbar {
    
-    padding-top: 4vh;
+    padding-top: 4.5vh;
 }
 
 .navbar-brand {
@@ -59,7 +59,7 @@ nav .container-fluid{
 
     #navbar {
    
-        padding-top: 3vh;
+        padding-top: 4.5vh;
     }
 
     .navbar-right a {
@@ -81,9 +81,21 @@ nav .container-fluid{
 }
 
 @media (max-width: 768px) {
+
+    nav .container-fluid{
+        
+        height: 9vh;
+    }
+
+    #navbar {
+   
+        padding-top: 3vh;
+    }
+
     .navbar-right a {
     color: #888;
     font-size: 0.9em;}
+
     .navbar-left a {
         color: #888;
         font-size: 0.9em;
